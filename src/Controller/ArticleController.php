@@ -19,7 +19,7 @@ class ArticleController extends AbstractController
      * @Route("/")
      */
     public function homepage(){
-        return new Response('Ya esta');
+        return $this->render('hompage.html.twig');
     }
 
     /**

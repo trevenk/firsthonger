@@ -16,14 +16,14 @@ use Symfony\Component\Routing\Annotation\Route;
 class ArticleController extends AbstractController
 {
     /**
-     * @Route("/")
+     * @Route("/", name="app_homepage")
      */
     public function homepage(){
         return $this->render('hompage.html.twig');
     }
 
     /**
-     * @Route("/ads/{slug}")
+     * @Route("/ads/{slug}", name="app_article_showad")
      */
     public function showAd($slug)
     {

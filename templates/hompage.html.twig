@@ -60,10 +60,10 @@
                                 <a class="nav-link text-dark" href="#">&iquest;Qui&eacute;nes somos&quest;</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#">Link</a>
+                                <a class="nav-link text-dark" href="#">Servicios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                <a class="nav-link text-dark" href="#">Contáctanos</a>
                             </li>
                         </ul>
                     </div>
@@ -99,7 +99,7 @@
     <section class="jumbotron shadow">
         <div class="card-deck">
             <div class="card">
-                <img src="{{ asset('img/carousel/img1.png') }}" class="card-img-top" alt="...">
+                <a href="{{ path('app_article_showad', {'slug': 'Restaurante 1'}) }}"><img src="{{ asset('img/carousel/img1.png') }}" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -109,7 +109,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="{{ asset('img/carousel/img2.png') }}" class="card-img-top" alt="...">
+                <a href="{{ path('app_article_showad', {'slug': 'Restaurante 2'}) }}"><img src="{{ asset('img/carousel/img2.png') }}" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -119,7 +119,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="{{ asset('img/carousel/img3.png') }}" class="card-img-top" alt="...">
+                <a href="{{ path('app_article_showad', {'slug': 'Restaurante 3'}) }}"><img src="{{ asset('img/carousel/img3.png') }}" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -130,4 +130,24 @@
             </div>
         </div>
     </section>
+
+    <div class="dropdown fixed-bottom">
+        <div class="container">
+            <div class="float-right">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    chat de honger
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <iframe
+                            allow="microphone;"
+                            width="350"
+                            height="430"
+                            src="https://console.dialogflow.com/api-client/demo/embedded/454468dd-2801-401b-b4dc-e872b44b67dd">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 {% endblock %}

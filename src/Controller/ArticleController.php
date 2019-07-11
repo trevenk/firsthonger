@@ -9,10 +9,11 @@
 namespace App\Controller;
 
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class ArticleController
+class ArticleController extends AbstractController
 {
     /**
      * @Route("/")
@@ -24,10 +25,10 @@ class ArticleController
     /**
      * @Route("/ads/{slug}")
      */
-    public function showAd($slug){
-        return new Response(sprintf(
-            'yet: %s',
-            $slug
-        ));
+    public function showAd($slug)
+    {
+        return $this->render('ads/rest1.html.twig', [
+            'title' => ucwords(str_replace('-',' ', $slug)),
+        ]);
     }
 }

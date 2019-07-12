@@ -14,6 +14,92 @@
 
     </head>
     <body>
+        {% block header %}
+            <div class="fixed-top bg-white">
+            <div class="container">
+                <section class="mt-2">
+                    <ul class="nav justify-content-between">
+                        <li class="nav-item justify-content-start">
+                            <a href="#" class="text-dark">example@emailexample.com</a>
+                        </li>
+
+                        <li>
+                            &nbsp;
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="social-media">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="#"><img src="{{ asset('img/twi.png') }}" width="24em"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.facebook.com/honger.media/"><img src="{{ asset('img/fb.jpeg') }}" width="24em"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#"><img src="{{ asset('img/inst.png') }}" width="24em"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="profile">
+                                <a href="#" class="btn btn-sm text-light bg-secondary">Login</a>
+                                <a href="#" class="btn btn-sm text-light bg-secondary">Register</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="navigation mt-2 bg-light pt-1">
+                <nav class="container text-dark">
+                    <ul class="nav justify-content-between navbar navbar-expand-lg navbar-light bg-light">
+                        <li>
+                            <div class="text-center">
+                                <ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <img src="{{ asset('img/logo.png') }}" class="" width="24em">
+                                    </li>
+                                    <li>
+                                        &nbsp;
+                                    </li>
+                                    <li class="nav-item">
+                                        <h2 class="text-center text-secondary">Honger</h2>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="nav-bar collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-dark" href="/">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#">&iquest;Qui&eacute;nes somos&quest;</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#">Servicios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#">Contáctanos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+        {% endblock %}
+
+
         {% block body %}
 
         {% endblock %}

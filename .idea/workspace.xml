@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e885a74-5d67-4924-8b25-411d8be86d34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/hompage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hompage.html.twig" afterDir="false" />
     </list>
@@ -40,12 +41,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/hompage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="119" column="77" selection-start-line="119" selection-start-column="77" selection-end-line="119" selection-end-column="77" />
+            <state relative-caret-position="419">
+              <caret line="187" column="62" selection-start-line="187" selection-start-column="62" selection-end-line="187" selection-end-column="62" />
               <folding>
                 <element signature="e#191#285#0#HTML" expanded="true" />
                 <element signature="e#295#318#0#HTML" expanded="true" />
                 <element signature="e#1380#1403#0#HTML" expanded="true" />
+                <element signature="e#2229#2253#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,10 +74,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="270">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="e#2926#2932#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -320,12 +325,12 @@
       <workItem from="1562781499224" duration="28748000" />
       <workItem from="1562858223811" duration="861000" />
       <workItem from="1562859110671" duration="7271000" />
-      <workItem from="1562926112502" duration="15108000" />
+      <workItem from="1562926112502" duration="25594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51988000" />
+    <option name="totallyTimeSpent" value="62474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
@@ -400,22 +405,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="e#2926#2932#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/hompage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="119" column="77" selection-start-line="119" selection-start-column="77" selection-end-line="119" selection-end-column="77" />
+        <state relative-caret-position="419">
+          <caret line="187" column="62" selection-start-line="187" selection-start-column="62" selection-end-line="187" selection-end-column="62" />
           <folding>
             <element signature="e#191#285#0#HTML" expanded="true" />
             <element signature="e#295#318#0#HTML" expanded="true" />
             <element signature="e#1380#1403#0#HTML" expanded="true" />
+            <element signature="e#2229#2253#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
